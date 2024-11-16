@@ -1,11 +1,7 @@
-import OverviewIcon from '@/assets/icons/overview.svg'
-import TaskIcon from '@/assets/icons/task.svg'
-import MentorIcon from '@/assets/icons/mentors.svg'
-import SettingsIcon from '@/assets/icons/settings.svg'
 import MentorsIc from '@/assets/icons/MentorsIc.vue'
 import OverviewIc from '@/assets/icons/OverviewIc.vue'
-import TasksIc from '@/assets/icons/TasksIc.vue'
 import SettingsIc from '@/assets/icons/SettingsIc.vue'
+import TasksIc from '@/assets/icons/TasksIc.vue'
 
 export const NAV_LINKS = [
   {
