@@ -4,7 +4,7 @@ import { RouterView } from 'vue-router'
 </script>
 
 <template>
-  <div class="p-3 px-5 bg-primary-0">
+  <div class="p-3 px-5 bg-primary-0 sticky top-0">
     <TopBar title="Settings" />
   </div>
 

@@ -7,6 +7,9 @@ import ProfileImg from '@/assets/images/profile.jpg'
 import NoteIcon from '@/assets/icons/note.svg'
 import StarIcon from '@/assets/icons/star.svg'
 import MentorImg from '@/assets/images/mine.jpeg'
+import TaskImg from '@/assets/images/task-img.png'
+import StudentImg from '@/assets/images/students.png'
+import TimeIcon from '@/assets/icons/time.svg'
 
 export const NAV_LINKS = [
   {
@@ -39,9 +42,10 @@ export const ICONS = {
   Bell,
   NoteIcon,
   StarIcon,
+  TimeIcon,
 }
 
-export const IMAGES = { ProfileImg, MentorImg }
+export const IMAGES = { ProfileImg, MentorImg, TaskImg, StudentImg }
 
 export const LANGUAGES = [
   {

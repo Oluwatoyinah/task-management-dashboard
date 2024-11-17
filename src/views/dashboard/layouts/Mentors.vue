@@ -4,7 +4,7 @@ import TopBar from '@/components/dashboard-ui/content/TopBar.vue'
 </script>
 
 <template>
-  <div class="p-3 px-5 bg-primary-0">
+  <div class="p-3 px-5 bg-primary-0 sticky top-0">
     <TopBar title="Explore Mentors" />
   </div>
 
