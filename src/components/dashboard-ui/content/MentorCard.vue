@@ -2,7 +2,7 @@
 import { IMAGES } from '@/constants'
 import { ICONS } from '@/constants'
 import { ref } from 'vue'
-const { ProfileImg } = IMAGES
+const { MentorImg } = IMAGES
 const { NoteIcon, StarIcon } = ICONS
 
 const isFollowed = ref(false)
@@ -11,9 +11,9 @@ const isFollowed = ref(false)
 <template>
   <div class="rounded-[10px] bg-primary-0 p-5 pb-5 min-h-[100px]">
     <div class="flex gap-2 items-center flex-wrap">
-      <div class="flex gap-1 items-center flex-grow">
+      <div class="flex gap-2 items-center flex-grow">
         <div class="size-10 rounded-full">
-          <img :src="ProfileImg" class="w-full h-full object-cover rounded-full" alt="img" />
+          <img :src="MentorImg" class="w-full h-full object-cover rounded-full" alt="img" />
         </div>
         <div>
           <p class="font-medium text-secondary-500 -tracking-[0.1px] text-[14px]">
@@ -30,7 +30,7 @@ const isFollowed = ref(false)
 
     <div class="my-3 mb-5">
       <p class="text-secondary-300 text-[13px]">
-        Hi, I'm Akinbobola Oluwatoyin. I'm a Frontend Enginer. I enjoy building wonderful softwares
+        Hi, I'm Akinbobola Oluwatoyin. I'm a Frontend Engineer. I enjoy building wonderful softwares
         . . .
       </p>
     </div>
@@ -43,7 +43,7 @@ const isFollowed = ref(false)
 
       <div class="flex gap-2 items-center">
         <span><img :src="StarIcon" alt="" /></span>
-        <p class="text-[14px] ">4,9 (970 Reviews)</p>
+        <p class="text-[14px] ">4.9 (970 Reviews)</p>
       </div>
     </div>
   </div>
