@@ -13,7 +13,7 @@ const { title, paragraph } = props
 <template>
   <div class="flex gap-3 justify-between items-center">
     <div>
-      <h1 class="text-secondary-500 text-[22px] font-semibold">{{ title }}</h1>
+      <h1 class="text-secondary-500 text-[18px] sm:text-[22px] font-semibold">{{ title }}</h1>
       <p v-if="paragraph" class="text-secondary-300 text-[15px]">{{ paragraph }}</p>
     </div>
 

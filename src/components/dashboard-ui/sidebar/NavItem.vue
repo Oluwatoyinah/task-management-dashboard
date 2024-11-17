@@ -22,5 +22,9 @@ const { name, icon, path } = props['data']
   color: $secondary-500 !important;
   background-color: #f5f5f7;
   border-radius: 4px;
+  @media (max-width: 768px) {
+    background-color: $secondary-400;
+    color: $primary-0 !important;
+  }
 }
 </style>

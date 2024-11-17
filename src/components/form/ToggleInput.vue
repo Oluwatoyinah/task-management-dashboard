@@ -23,8 +23,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  /* background-color: #ccc; */
-  background-color: #d8d8d8;
+  background-color: #ddd;
   border-radius: 28px;
   transition: 0.4s;
 }
@@ -42,7 +41,6 @@
 }
 
 .toggle input:checked + .toggle-slider {
-  /* background-color: #2196f3; */
   background-color: $secondary-400;
 }
 

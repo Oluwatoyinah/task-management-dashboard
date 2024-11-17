@@ -4,6 +4,8 @@ import SettingsIc from '@/assets/icons/SettingsIc.vue'
 import TasksIc from '@/assets/icons/TasksIc.vue'
 import Bell from '@/assets/icons/bell.svg'
 import ProfileImg from '@/assets/images/profile.jpg'
+import NoteIcon from '@/assets/icons/note.svg'
+import StarIcon from '@/assets/icons/star.svg'
 
 export const NAV_LINKS = [
   {
@@ -34,6 +36,8 @@ export const ICONS = {
   MentorsIc,
   SettingsIc,
   Bell,
+  NoteIcon,
+  StarIcon,
 }
 
 export const IMAGES = { ProfileImg }
