@@ -12,7 +12,7 @@ const { name, icon, path } = props['data']
       <span>
         <icon />
       </span>
-      <span class="text-[14px]">{{ name }}</span>
+      <span class="text-[14px] hidden md:inline-flex">{{ name }}</span>
     </button>
   </RouterLink>
 </template>

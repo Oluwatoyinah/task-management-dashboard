@@ -4,3 +4,11 @@
     <h3 class="text-[30px] font-bold -tracking-[1px]">Logo</h3>
   </div>
 </template>
+
+<style lang="scss">
+.logo-box {
+  @media (max-width: 768px) {
+    display: none;
+  }
+}
+</style>

@@ -2,6 +2,8 @@ import MentorsIc from '@/assets/icons/MentorsIc.vue'
 import OverviewIc from '@/assets/icons/OverviewIc.vue'
 import SettingsIc from '@/assets/icons/SettingsIc.vue'
 import TasksIc from '@/assets/icons/TasksIc.vue'
+import Bell from '@/assets/icons/bell.svg'
+import ProfileImg from '@/assets/images/profile.jpg'
 
 export const NAV_LINKS = [
   {
@@ -22,7 +24,7 @@ export const NAV_LINKS = [
   {
     name: 'Settings',
     icon: SettingsIc,
-    path: '/settings',
+    path: '/settings/general',
   },
 ]
 
@@ -31,4 +33,7 @@ export const ICONS = {
   TasksIc,
   MentorsIc,
   SettingsIc,
+  Bell,
 }
+
+export const IMAGES = { ProfileImg }

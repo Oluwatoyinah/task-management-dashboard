@@ -5,7 +5,7 @@ import NavItem from './NavItem.vue'
 
 <template>
   <div class="nav-list">
-    <ul class="flex flex-col gap-3">
+    <ul class="flex md:flex-col gap-3 justify-around md:justify-start">
       <NavItem v-for="link in NAV_LINKS" :key="link.name" :data="link" />
     </ul>
   </div>
