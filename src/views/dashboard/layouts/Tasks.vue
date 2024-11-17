@@ -12,15 +12,19 @@ import TopBar from '@/components/dashboard-ui/content/TopBar.vue'
     <div class="pb-8">
       <h3 class="text-[20px] font-semibold mb-5">Time Limit</h3>
 
-      <div class="grid sm:grid-cols-2 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-5">
+      <div
+        class="grid sm:grid-cols-2 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-5"
+      >
         <TaskCard />
       </div>
     </div>
     <div class="pb-8">
       <h3 class="text-[20px] font-semibold mb-5">New Task</h3>
 
-      <div class="grid sm:grid-cols-2 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-5">
-        <TaskCard v-for="numbers in 6" />
+      <div
+        class="grid sm:grid-cols-2 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-5"
+      >
+        <TaskCard v-for="numbers in 9" />
       </div>
     </div>
   </div>
