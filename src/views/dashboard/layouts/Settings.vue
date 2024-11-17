@@ -9,8 +9,8 @@ import { RouterView } from 'vue-router'
   </div>
 
   <div class="p-5">
-    <div class="bg-primary-0 rounded min-h-[100px]">
-      <div class="flex gap-3 px-5 *:text-[15px]">
+    <div class="bg-primary-0 rounded min-h-[500px] pt-5 pb-8">
+      <div class="flex gap-5 px-5 *sm:text-[15px] *:text-[13px]">
         <RouterLink
           to="/settings/general"
           class="text-secondary-300"

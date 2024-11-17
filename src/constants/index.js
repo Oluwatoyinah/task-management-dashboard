@@ -37,3 +37,14 @@ export const ICONS = {
 }
 
 export const IMAGES = { ProfileImg }
+
+export const LANGUAGES = [
+  {
+    name: 'English (Default)',
+    value: 'english',
+  },
+  {
+    name: 'French',
+    value: 'french',
+  },
+]
